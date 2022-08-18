@@ -1,0 +1,18 @@
+.header-top__nav {
+    &__ul {
+        list-style: none;
+        display: flex;
+        align-items: center;
+    }
+    li:not(:last-child) {
+        margin-right: 3rem;
+    }
+    a {
+        line-height: 1.1;
+        text-decoration: none;
+        color: $dark-color;
+    }
+    a:hover {
+        color: $accent-color;
+    }
+}
